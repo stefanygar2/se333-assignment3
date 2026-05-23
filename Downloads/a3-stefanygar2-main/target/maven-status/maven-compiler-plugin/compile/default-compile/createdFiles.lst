@@ -1,0 +1,12 @@
+org/example/Pattern/AlwaysTrue.class
+org/example/Resource/BuggyFile2.class
+org/example/Main.class
+org/example/Pattern/DivisionByZero.class
+org/example/Pattern/EmptyCatch.class
+org/example/Pattern/AbstractPattern.class
+org/example/Pattern/IncorrectStringComparison.class
+org/example/Util/ModelUtil.class
+org/example/Pattern/FileNotClosed.class
+org/example/Resource/BuggyFile.class
+org/example/Pattern/EmptyMethod.class
+org/example/Pattern/AbstractPattern$elementSchema.class

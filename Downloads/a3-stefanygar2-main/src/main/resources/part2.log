@@ -1,0 +1,50 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:Lab2:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: fr.inria.gforge.spoon:spoon-core:jar -> version 11.1.0 vs 10.4.2 @ line 25, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------------< org.example:Lab2 >--------------------------
+[INFO] Building Lab2 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.6.3:java (default-cli) @ Lab2 ---
+Analyzing path: /Users/stefanygarcia/Downloads/commons-lang/src/main/java
+Detected: Empty Catch Block at Line[260:262] in class ExceptionUtils.java
+Detected: Empty Catch Block at Line[440:442] in class NumberUtils.java
+Detected: Empty Catch Block at Line[455:457] in class NumberUtils.java
+Detected: Empty Catch Block at Line[466:468] in class NumberUtils.java
+Detected: Empty Catch Block at Line[471:473] in class NumberUtils.java
+Detected: Empty Catch Block at Line[490:492] in class NumberUtils.java
+Detected: Empty Catch Block at Line[495:497] in class NumberUtils.java
+Detected: Empty Catch Block at Line[514:516] in class NumberUtils.java
+Detected: Empty Catch Block at Line[121:123] in class ConstructorUtils.java
+Detected: Empty Catch Block at Line[135:137] in class FieldUtils.java
+Detected: Empty Catch Block at Line[209:211] in class FieldUtils.java
+Detected: Empty Catch Block at Line[223:225] in class FieldUtils.java
+Detected: Empty Catch Block at Line[331:333] in class MemberUtils.java
+Detected: Empty Catch Block at Line[180:184] in class MethodUtils.java
+Detected: Empty Catch Block at Line[432:435] in class ExtendedMessageFormat.java
+Detected: Empty Catch Block at Line[1361:1363] in class DateUtils.java
+Detected: Empty Method Block at Line[107:109] in class StrBuilder.java
+Detected: Empty Method Block at Line[223:225] in class StrBuilder.java
+Detected: Empty Method Block at Line[229:231] in class StrBuilder.java
+Detected: Incorrect String Comparison at Line[68:68] in class ObjectToStringComparator.java
+Detected: Incorrect String Comparison at Line[533:533] in class BooleanUtils.java
+Detected: Incorrect String Comparison at Line[536:536] in class BooleanUtils.java
+Detected: Incorrect String Comparison at Line[745:745] in class BooleanUtils.java
+Detected: Incorrect String Comparison at Line[871:871] in class StringUtils.java
+Detected: Incorrect String Comparison at Line[972:972] in class StringUtils.java
+Detected: Incorrect String Comparison at Line[99:99] in class Strings.java
+Detected: Incorrect String Comparison at Line[206:206] in class Strings.java
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.951 s
+[INFO] Finished at: 2026-05-22T23:04:12-05:00
+[INFO] ------------------------------------------------------------------------
